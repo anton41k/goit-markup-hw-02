@@ -1,0 +1,10 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-logo: rgba(0, 0, 0, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --grey-text: rgba(117, 117, 117, 1);
+  --grey-op06-text: rgba(255, 255, 255, 0.6);
+  --bgr-main: rgba(229, 229, 229, 1);
+  --bgr-hero-footer: rgba(47, 48, 58, 1);
+}

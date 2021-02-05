@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--blue-text);
+}
+
+.header .logo-studio {
+  color: var(--black-logo);
+}
+
+.footer .logo-studio {
+  color: var(--white-text);
+}
+
+.header-hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-static {
+  color: var(--black-text);
+}
+
+.header-cont-static {
+  color: var(--grey-text);
+}
+
+.header-hover:hover,
+.header-hover:focus {
+  color: var(--blue-text);
+}
+
+.main-hero {
+  background-color: var(--bgr-hero-footer);
+}
+
+.main-hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.main-hero-bt {
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-text);
+  background-color: var(--blue-text);
+}
+
+.main-accomplishments h3 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-text);
+}
+
+.main-accomplishments p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: var(--grey-text);
+}
+
+.main-employment h2,
+.main-team h2 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.main-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.main-team p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--grey-text);
+}
+
+.footer {
+  background-color: var(--bgr-hero-footer);
+}
+
+.footer-address a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer-address-geo {
+  color: var(--white-text);
+}
+
+.footer-address-mail,
+.footer-address-tel {
+  color: var(--grey-op06-text);
+}
