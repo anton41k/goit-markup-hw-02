@@ -61,7 +61,7 @@ a {
 
 .main-hero-bt {
   border: none;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -95,19 +95,19 @@ a {
   color: var(--black-text);
 }
 
-.main-team h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: var(--black-text);
-}
-
+.main-team h3,
 .main-team p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+}
+
+.main-team h3 {
+  color: var(--black-text);
+}
+
+.main-team p {
   color: var(--grey-text);
 }
 
