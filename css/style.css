@@ -1,15 +1,35 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-logo: rgba(0, 0, 0, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --gray-text: rgba(117, 117, 117, 1);
+  --gray-op06-text: rgba(255, 255, 255, 0.6);
+  --bgr-hero-footer: rgba(47, 48, 58, 1);
+  --bgr-wgray: rgba(245, 244, 250, 1);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-style: 400;
   letter-spacing: 0.03em;
   color: var(--black-text);
-  background: var(--white-text);
+  background-color: var(--white-text);
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 /*Logo*/
 
 .logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -48,6 +68,10 @@ body {
   text-decoration: none;
 }
 
+.header-nav .header-hover.current{
+  color: var(--blue-text)
+}
+
 /*Main*/
 
 .main-hero {
@@ -84,7 +108,6 @@ body {
 .main-accomplishments p {
   font-size: 14px;
   line-height: 1;
-  letter-spacing: 0.03em;
   color: var(--gray-text);
 }
 
@@ -97,14 +120,17 @@ body {
 }
 
 .main-team {
-  background: var(--bgr-wgray);
+  background-color: var(--bgr-wgray);
 }
 
 .main-team h3,
 .main-team p {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
+}
+
+.main-team h3 {
+  font-weight: 500;
 }
 
 .main-team p {
@@ -141,12 +167,12 @@ body {
 /*Портфолио*/
 
 .main {
-  background: var(--white-text);
+  background-color: var(--white-text);
 }
 
 .main-portfolio-list button {
   border: none;
-  background: var(--bgr-wgray);
+  background-color: var(--bgr-wgray);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -154,7 +180,7 @@ body {
 
 .main-portfolio-list button:hover,
 .main-portfolio-list button:focus {
-  background: var(--blue-text);
+  background-color: var(--blue-text);
   color: var(--white-text);
 }
 
